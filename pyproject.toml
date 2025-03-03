@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "structgentor"
+version = "0.1.0"
+description = "A CLI tool to generate folder structures and files"
+authors = [
+    { name = "Mr. Anex", email = "developer.anex@gmail.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "argparse",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[project.scripts]
+structgentor = "structgentor.main:main"
+

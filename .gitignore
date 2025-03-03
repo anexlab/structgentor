@@ -1,0 +1,7 @@
+.venv
+.vscode
+
+layout.txt
+
+*__pycache__
+*structgentor.egg-info/
