@@ -1,7 +1,25 @@
-.venv
-.vscode
-
 layout.txt
 
-*__pycache__
-*structgentor.egg-info/
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Distribution and packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# VS Code settings
+.vscode/
+
+# PyInstaller
+*.spec

@@ -76,7 +76,7 @@ pip install structgentor
 If you want to install the latest development version from source:
 
 ```sh
-git clone https://github.com/anexcodes/structgentor.git
+git clone https://github.com/anexlab/structgentor.git
 cd structgentor
 pip install .
 ```
@@ -111,7 +111,7 @@ We appreciate contributions from the community! If you’d like to improve **str
 First, fork the repository on GitHub and then clone it to your local machine:
 
 ```sh
-git clone https://github.com/your-username/structgentor.git
+git clone https://github.com/anexlab/structgentor.git
 cd structgentor
 ```
 

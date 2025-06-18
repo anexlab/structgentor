@@ -5,9 +5,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "structgentor"
 version = "0.1.0"
-description = "A CLI tool to generate folder structures and files"
+description = "Structgentor is a lightweight Python CLI tool that helps you scaffold both folders and files from customizable structures. Define reusable templates, choose your terminal type, and generate complete project layouts in seconds — ideal for rapid project bootstrapping."
+readme = "README.md"
+requires-python = ">=3.7"
 authors = [
-    { name = "Mr. Anex", email = "developer.anex@gmail.com" }
+    { name = "Anex Lab", email = "anexlab.dev@gmail.com" }
 ]
 license = { text = "MIT" }
 dependencies = [
