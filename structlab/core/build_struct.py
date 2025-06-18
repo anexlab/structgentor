@@ -1,5 +1,5 @@
 import os
-from structgentor.utils import print
+from structlab.utils import print
 
 DEFAULT_CONTENT = {
     "README.md": "# Project Title\n\nProject description here.",

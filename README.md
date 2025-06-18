@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="./branding/logo/primary/structgentor_logo.svg" alt="Structgentor Logo" width="170">
-  <h1>StructGentor</h1>
+  <img src="./branding/logo/primary/structlab_logo.svg" alt="structlab Logo" width="170">
+  <h1>structlab</h1>
   
   <p>
     <strong>A powerful CLI tool for generating and managing project folder structures.</strong>
   </p>
 
   <p>
-  Structgentor automates the creation of directories and files based on a predefined layout, 
+  Structlab automates the creation of directories and files based on a predefined layout, 
   helping developers and teams maintain consistency across projects.  
   With commands for initialization, structure freezing, and usage guidance, it streamlines project setup and management.
   </p>
@@ -25,15 +25,15 @@
 
 ## Introduction
 
-**Structgentor** is a powerful and flexible CLI tool designed to automate the creation and management of project folder structures. It simplifies the process of setting up standardized directory layouts, ensuring consistency across multiple projects. The generated structure follows a modular design, separating CLI commands, core logic, and utility functions for maintainability and scalability. It is based on `layout.txt`, allowing users to define custom folder structures effortlessly.
+**Structlab** is a powerful and flexible CLI tool designed to automate the creation and management of project folder structures. It simplifies the process of setting up standardized directory layouts, ensuring consistency across multiple projects. The generated structure follows a modular design, separating CLI commands, core logic, and utility functions for maintainability and scalability. It is based on `layout.txt`, allowing users to define custom folder structures effortlessly.
 
-With Structgentor, you can:
+With structlab, you can:
 
 - Automatically generate project structures from predefined templates.
 - Capture and save the structure of an existing project.
 - Maintain organization and efficiency in project development.
 
-Whether you're working on software development, research, or documentation projects, Structgentor provides a streamlined way to structure your files and directories.
+Whether you're working on software development, research, or documentation projects, structlab provides a streamlined way to structure your files and directories.
 
 ## Features
 
@@ -50,17 +50,17 @@ Whether you're working on software development, research, or documentation proje
 
 ### Prerequisites
 
-Before installing Structgentor, ensure that you have the following dependencies installed:
+Before installing structlab, ensure that you have the following dependencies installed:
 
-- **Python 3.7 or later** – Required to run Structgentor
+- **Python 3.7 or later** – Required to run structlab
 - **pip** – The Python package manager (comes pre-installed with Python)
 
 ### Installing via pip
 
-You can install Structgentor globally using pip:
+You can install structlab globally using pip:
 
 ```sh
-pip install structgentor
+pip install structlab
 ```
 
 To install it in a virtual environment:
@@ -68,7 +68,7 @@ To install it in a virtual environment:
 ```sh
 python -m venv venv
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
-pip install structgentor
+pip install structlab
 ```
 
 #### Installing from source
@@ -76,43 +76,43 @@ pip install structgentor
 If you want to install the latest development version from source:
 
 ```sh
-git clone https://github.com/anexlab/structgentor.git
-cd structgentor
+git clone https://github.com/anexlab/structlab.git
+cd structlab
 pip install .
 ```
 
 #### Verifying the installation
 
-After installation, you can verify that Structgentor is installed correctly by running:
+After installation, you can verify that structlab is installed correctly by running:
 
 ```sh
-structgentor help
+structlab help
 ```
 
 ## Command List
 
-Structgentor provides several commands to help manage and generate project structures. Below is a list of available commands:
+structlab provides several commands to help manage and generate project structures. Below is a list of available commands:
 
 | Command              | Description                                                                                                 | Usage                                         |
 | -------------------- | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| `init`               | Generates files and folders based on `layout.txt` in the current directory.                                 | `structgentor init`                           |
-| `init .`             | Explicitly generates files and folders in the current directory.                                            | `structgentor init .`                         |
-| `init <folder_name>` | Generates files and folders inside the specified folder.                                                    | `structgentor init my_project`                |
-| `freeze`             | Scans the current directory and saves its structure into `layout.txt`, excluding predefined system folders. | `structgentor freeze`                         |
-| `help`               | Displays usage instructions and available commands.                                                         | `structgentor help`                           |
-| `--version, -v`      | Displays the installed version of Structgentor.                                                             | `structgentor --version` or `structgentor -v` |
+| `init`               | Generates files and folders based on `layout.txt` in the current directory.                                 | `structlab init`                           |
+| `init .`             | Explicitly generates files and folders in the current directory.                                            | `structlab init .`                         |
+| `init <folder_name>` | Generates files and folders inside the specified folder.                                                    | `structlab init my_project`                |
+| `freeze`             | Scans the current directory and saves its structure into `layout.txt`, excluding predefined system folders. | `structlab freeze`                         |
+| `help`               | Displays usage instructions and available commands.                                                         | `structlab help`                           |
+| `--version, -v`      | Displays the installed version of structlab.                                                             | `structlab --version` or `structlab -v` |
 
 ## Contributing
 
-We appreciate contributions from the community! If you’d like to improve **structgentor**, follow these steps:
+We appreciate contributions from the community! If you’d like to improve **structlab**, follow these steps:
 
 #### 1. Fork & Clone the Repository
 
 First, fork the repository on GitHub and then clone it to your local machine:
 
 ```sh
-git clone https://github.com/anexlab/structgentor.git
-cd structgentor
+git clone https://github.com/anexlab/structlab.git
+cd structlab
 ```
 
 #### 2. Set Up a Virtual Environment (Optional)

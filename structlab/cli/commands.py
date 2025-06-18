@@ -1,15 +1,15 @@
 import argparse
 import sys
 
-from structgentor.core import save_structure, generate_from_layout
-from structgentor.utils import print, cli_help
+from structlab.core import save_structure, generate_from_layout
+from structlab.utils import print, cli_help
 
-# from structgentor.utils.utils import cli_help
-# from structgentor.utils.printer import print
+# from structlab.utils.utils import cli_help
+# from structlab.utils.printer import print
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Structgentor - Project Structure Generator",
+        description="structlab - Project Structure Generator",
         add_help=False  # Disable default help for better error handling
     )
 
@@ -28,7 +28,7 @@ def main():
     args = parser.parse_args()
 
     if not args.command:
-        print("No command provided! Use 'structgentor help' for available commands.\n", category="warning")
+        print("No command provided! Use 'structlab help' for available commands.\n", category="warning")
         return
 
     if args.command == "init":
@@ -38,7 +38,7 @@ def main():
     elif args.command == "help":
         cli_help()
     else:
-        print(f"Unknown command '{args.command}'. Use 'structgentor help' for a list of available commands.\n", category="error")
+        print(f"Unknown command '{args.command}'. Use 'structlab help' for a list of available commands.\n", category="error")
 
 if __name__ == "__main__":
     main()

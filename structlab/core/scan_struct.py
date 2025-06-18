@@ -1,5 +1,5 @@
 import os
-from structgentor.utils import detect_virtual_env, EXCLUDED_FOLDERS, print
+from structlab.utils import detect_virtual_env, EXCLUDED_FOLDERS, print
 
 def save_structure(output_file="layout.txt"):
     """Scans the current directory and saves the folder structure, excluding unwanted folders."""

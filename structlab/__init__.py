@@ -1,10 +1,10 @@
-"""Structgentor - A CLI tool to generate folder structures and files."""
+"""Structlab - A CLI tool to generate folder structures and files."""
 
 import importlib.metadata
 from .core.scan_struct import save_structure
 from .utils.cli_helper import cli_help
 
-__version__ = importlib.metadata.version("structgentor")
+__version__ = importlib.metadata.version("structlab")
 
 
 def get_version():
